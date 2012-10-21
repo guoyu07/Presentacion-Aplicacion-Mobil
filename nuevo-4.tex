@@ -1,0 +1,171 @@
+% /solutions/conference-talks/conference-ornate-20min.fr.tex, 22/02/2006 De Sousa
+
+\documentclass{beamer}
+
+
+
+
+\mode<presentation> {
+  \usetheme{Warsaw}
+  % ou autre ...
+
+  \setbeamercovered{transparent}
+}
+
+
+\usepackage[french]{babel}
+% or autre comme par exemple \usepackage[english]{babel}
+
+\usepackage[latin1]{inputenc}
+% or autre
+
+\usepackage{times}
+\usepackage[T1]{fontenc}
+
+
+\title[Titre court] 
+{MY TWIN}
+
+\subtitle {}
+
+\author[] 
+{Developers: \\Hernan Ullon\inst{1} \and Kevin Calderon\inst{2}  \and Cesar San Lucas\inst{3}}
+
+
+
+\subject{La théorie de l'Informatique}
+
+
+% \pgfdeclareimage[height=0.5cm]{le-logo}{université-logo-nomfichier}
+% \logo{\pgfuseimage{le-logo}}
+
+
+
+\AtBeginSubsection[] {
+  \begin{frame}<beamer>{DESCRIPCION}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{DESCRIPCION}
+  \tableofcontents
+  % Vous pouvez, si vous le souhaiter ajouter l'option [pausesections]
+\end{frame}
+
+
+\section{IDEA}
+
+\subsection{Problematica}
+
+\begin{frame}{Problematica}{Ideas:\\Simples\\Dificiles\\Sencillas\\\\Ninguna Convencia}
+
+
+%IMAGENES
+
+
+\end{frame}
+
+\subsection{Idea Final}
+
+\begin{frame}{Idea Final}
+
+%IMAGENES
+
+\end{frame}
+
+
+
+
+\section{MY TWIN}
+
+\subsection{Descripcion}
+
+\begin{frame}{Descripcion}
+\begin{itemize}
+\item
+    Divertida\pause
+    \item
+     Realista\pause
+    \item
+    Multimedia
+
+    \end{itemize}
+\end{frame}
+
+
+
+\subsection{Recursos}
+
+\begin{frame}{Multimedia}
+
+\end{frame}
+
+
+
+\section*{Résumé}
+
+\begin{frame}{Résumé}
+
+  % Faîtes un résumé *très court*.
+  \begin{itemize}
+  \item
+    Le \alert{premier message principal} de l'exposé en une ligne ou
+    deux.
+  \item
+    Le \alert{deuxième message principal} de l'exposé en une ligne ou
+    deux.
+  \item
+    Peut-être un \alert{troisième message}, mais pas plus que ça.
+  \end{itemize}
+
+  % Les perspectives suivantes sont facultatives.
+  \vskip0pt plus.5fill
+  \begin{itemize}
+  \item
+    Perspectives
+    \begin{itemize}
+    \item
+      Problème non résolu.
+    \item
+      Autre problème non résolu.
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+
+\appendix
+\section<presentation>*{\appendixname}
+\subsection<presentation>*{Lectures complémentaires}
+
+\begin{frame}[allowframebreaks]
+  \frametitle<presentation>{Lectures complémentaires}
+
+  \begin{thebibliography}{10}
+
+  \beamertemplatebookbibitems
+
+  \bibitem{Auteur1990}
+    A.~Auteur.
+    \newblock {\em Livre de quelque chose}.
+    \newblock Une Edition, 1990.
+
+
+  \beamertemplatearticlebibitems
+
+  \bibitem{Quelqu'un2000}
+    S.~Quelqu'un.
+    \newblock Et ceci et cela.
+    \newblock {\em Journal de ceci et cela}, 2(1):50--100,
+    2000.
+  \end{thebibliography}
+\end{frame}
+
+\end{document}
